@@ -67,3 +67,77 @@ ul {
 .tickets p {
     cursor: pointer;
 }
+.main-articles {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    height: 70vh;
+
+}
+.main-articles a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.main-articles a:hover {
+    text-decoration: none;
+}
+.main1 {
+    grid-row: 1 / -1;
+    background: url(./images/flupic.jpg);
+    background-size: 100% 100%;
+}
+.main2 {
+    background: url(./images/mainpic3.jpg);
+    background-size: 100% 100%;
+}
+.main3 {
+    background: url(./images/random3.jpg);
+    background-size: 100% 100%;
+}
+.main-articles figure {
+    position: relative;
+}
+.main-wrapper {
+    color: white;
+    position: absolute;
+    padding: 14px;
+    bottom: 0;
+}
+.main-wrapper p {
+    cursor: pointer;
+}
+.main-wrapper p:hover {
+    color: grey;
+}
+.main1 a {
+    font-size: 35px;
+}
+.main2 {
+    font-size: 19px;
+}
+.main3 a {
+    font-size: 19px;
+}
+.latest-news {
+    padding: 30px 0;
+}
+.container {
+    width: 90%;
+    display: grid;
+    margin-left: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-right: 20px;
+    gap: 20px;
+}
+.container img {
+    width: 304px;
+    height: 152px;
+}
+.container a {
+    width: 90%;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
