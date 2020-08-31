@@ -443,6 +443,9 @@ li:hover {
     .footer {
         text-align: center;
     }
+    .footer-bottom {
+        text-align: center;
+    }
 }
 @media (max-width: 769px) {
     .main-articles { 
@@ -479,6 +482,9 @@ li:hover {
         width: 100%;
     }
     .footer {
+        text-align: center;
+    }
+    .footer-bottom {
         text-align: center;
     }
 }
