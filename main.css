@@ -73,15 +73,13 @@ ul {
 }
 
 .main-articles {
-    display: flex;
-    flex-wrap: wrap;
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 1fr 1fr;
     gap: 10px;
     padding: 10px;
-    height: 70vh;
-
+    height: 600px;
+    width: 100%;
 }
 .main-articles a {
     text-decoration: none;
@@ -145,6 +143,8 @@ ul {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
+
+
 .container h1 {
     line-height: 0.5;
 }
@@ -383,3 +383,102 @@ li:hover {
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .top-nav {
+        display: none;
+        width: 100%;
+    }
+    .bottom-nav {
+        display: none;
+        width: 100%;
+    }
+    .tickets {
+        display: none;
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .main-articles { 
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 800px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 1850px;
+        width: 100%;
+    }
+    .container img {
+        width: 100%;
+    }
+    .main1 {
+        width: 100%;
+        height: 280px;
+    }
+    .main2 {
+        width: 100%;
+        height: 250px;
+    }
+    .main3 {
+        width: 100%;
+        height: 250px;
+    }
+    .categories {
+        width: 100%;
+        height: 5000px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cont {
+        width: 100%;
+        height: 1990px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cont img {
+        width: 100%;
+    }
+    .footer {
+        text-align: center;
+    }
+}
+@media (max-width: 769px) {
+    .main-articles { 
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 800px;
+    }
+    .main1 {
+        width: 100%;
+        height: 280px;
+    }
+    .main2 {
+        width: 100%;
+        height: 250px;
+    }
+    .main3 {
+        width: 100%;
+        height: 250px;
+    }
+    .categories {
+        width: 100%;
+        height: 5000px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cont {
+        width: 100%;
+        height: 1990px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cont img {
+        width: 100%;
+    }
+    .footer {
+        text-align: center;
+    }
+}
